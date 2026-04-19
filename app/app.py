@@ -3,6 +3,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Version from FEATURE branch"
+
+return "Version from DEVELOP branch"
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
